@@ -11,6 +11,6 @@ public class HelloController {
     private HelloRemote helloRemote;
     @RequestMapping("/hello")
     public String hello(String name){
-        return "co1100e:" + helloRemote.hello(name);
+        return "co110e:" + helloRemote.hello(name);
     }
 }
